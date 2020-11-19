@@ -13,10 +13,11 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://xinetzone.github.io/dao
+url: https://xinetzone.github.io
 root: /dao/
 ## npm install hexo-abbrlink
-permalink: :lang/:abbrlink.html # :year/:month/:day/:title/
+## 添加 :root 解决图片
+permalink: lang/:abbrlink.html # year/:month/:day/:title/
 # abbrlink config
 abbrlink:
   alg: crc32      #support crc16(default) and crc32
@@ -132,33 +133,10 @@ deploy:
   repo: https://github.com/xinetzone/dao
   branch: gh-pages
 
-# 参考 https://github.com/hexojs/hexo-renderer-marked
-# marked:
-#   gfm: true
-#   pedantic: false
-#   breaks: true
-#   smartLists: true
-#   smartypants: true
-#   quotes: '“”‘’'
-#   modifyAnchors: 0
-#   anchorAlias: false
-#   autolink: true
-#   mangle: true
-#   sanitizeUrl: false
-#   headerIds: true
-#   lazyload: false
-#   prependRoot: true
-#   postAsset: true
-#   external_link:
-#     enable: false
-#     exclude: []
-#     nofollow: false
-#   disableNunjucks: false
-
 # 内容搜索
 search:
   path: search.xml
-  field: post
+  field: all
   content: true
 
 # 添加emoji表情支持
@@ -187,11 +165,12 @@ feed:
   autodiscovery: true
   template:
 
+# 支持 katex
+## https://github.com/thcd/hexo-katex
+## npm uninstall hexo-renderer-marked
+## npm install hexo-renderer-pandoc
+## npm install hexo-katex
 pandoc:
-  filters:
-  extra:
-  template:
-  meta:
   mathEngine: katex
   katex:
     css: true

@@ -16,12 +16,6 @@
 6. 修改配置 `docs/_config.yml` 和 `docs/themes/hexo-matery/_config.yml` 信息，改成您自己的信息
 7. 替换 `docs/themes/hexo-matery/source/medias/reward` 之下的二维码为您自己的
 8. 运行命令`hexo  clean`（清除生成文件），`hexo g`（生成网页）， `hexo  s`（本地预览），`hexo d`（部署），详细教程可参考 Hexo 官方网站：[写作](https://hexo.io/zh-cn/docs/writing)
-9. 为了支持 Katex，还需要：
-
-```sh
-npm uninstall hexo-renderer-marked
-npm install hexo-renderer-pandoc
-```
 
 因为本网站是支持多语种的（详细内容见 [多语种的网站](https://hexo.io/zh-cn/docs/permalinks.html)），所以当您建立新文章时，最好使用如下格式：
 
