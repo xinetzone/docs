@@ -133,27 +133,27 @@ deploy:
   branch: gh-pages
 
 # 参考 https://github.com/hexojs/hexo-renderer-marked
-marked:
-  gfm: true
-  pedantic: false
-  breaks: true
-  smartLists: true
-  smartypants: true
-  quotes: '“”‘’'
-  modifyAnchors: 0
-  anchorAlias: false
-  autolink: true
-  mangle: true
-  sanitizeUrl: false
-  headerIds: true
-  lazyload: false
-  prependRoot: true
-  postAsset: true
-  external_link:
-    enable: false
-    exclude: []
-    nofollow: false
-  disableNunjucks: false
+# marked:
+#   gfm: true
+#   pedantic: false
+#   breaks: true
+#   smartLists: true
+#   smartypants: true
+#   quotes: '“”‘’'
+#   modifyAnchors: 0
+#   anchorAlias: false
+#   autolink: true
+#   mangle: true
+#   sanitizeUrl: false
+#   headerIds: true
+#   lazyload: false
+#   prependRoot: true
+#   postAsset: true
+#   external_link:
+#     enable: false
+#     exclude: []
+#     nofollow: false
+#   disableNunjucks: false
 
 # 内容搜索
 search:
@@ -186,3 +186,12 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+pandoc:
+  filters:
+  extra:
+  template:
+  meta:
+  mathEngine: katex
+  katex:
+    css: true
