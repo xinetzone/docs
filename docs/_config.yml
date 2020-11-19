@@ -16,8 +16,8 @@ timezone: 'Asia/Shanghai'
 url: https://xinetzone.github.io
 root: /dao/
 ## npm install hexo-abbrlink
-## 添加 :root 解决图片
-permalink: lang/:abbrlink.html # year/:month/:day/:title/
+## 添加 :root 解决图片路径错误的问题
+permalink: :root:lang/:abbrlink.html # :root:year/:month/:day/:title/
 # abbrlink config
 abbrlink:
   alg: crc32      #support crc16(default) and crc32
