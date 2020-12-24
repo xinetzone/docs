@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "chokidar": "^3.4.3",
-    "hexo": "^5.0.0",
+    "hexo": "*",
     "hexo-abbrlink": "^2.2.1",
     "hexo-asset-image": "^1.0.0",
     "hexo-deployer-git": "^2.1.0",
