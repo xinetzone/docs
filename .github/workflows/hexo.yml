@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 15
 
       - name: Setup Hexo
         run: |
@@ -21,4 +21,5 @@ jobs:
       - name: Deploy
         run: |
           cd docs
+          npm install
           ls
