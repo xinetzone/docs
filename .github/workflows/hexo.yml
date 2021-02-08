@@ -17,6 +17,7 @@ jobs:
       - name: Setup Hexo
         run: |
           npm install hexo-cli -g
+          git config --global init.defaultBranch main
 
       - name: Deploy
         run: |
