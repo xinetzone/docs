@@ -16,10 +16,9 @@ jobs:
 
       - name: Setup Hexo
         run: |
-          npm install hexo-cli -g
           git config --global user.email "xinzone@outlook.com"
           git config --global user.name "xinetzone"
-          git config --global init.defaultBranch main
+          npm install hexo-cli -g
 
       - name: Deploy
         run: |
