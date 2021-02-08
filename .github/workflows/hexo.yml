@@ -22,4 +22,8 @@ jobs:
         run: |
           cd docs
           npm install
+          npm audit fix --force
+          hexo clean 
+          hexo g
+          hexo d
           ls
