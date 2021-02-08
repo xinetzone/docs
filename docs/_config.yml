@@ -130,7 +130,7 @@ theme: hexo-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy: 
   type: git
-  repo: https://github.com/xinetzone/dao
+  repo: git@github.com:xinetzone/dao.git
   branch: gh-pages
 
 # 内容搜索
