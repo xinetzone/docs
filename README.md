@@ -1,20 +1,20 @@
-# dao
+## dao
 
 刘新伟的博客
 
-[![GitHub issues](https://img.shields.io/github/issues/xinetzone/xinetzone.github.io)](https://github.com/xinetzone/xinetzone.github.io/issues) [![GitHub forks](https://img.shields.io/github/forks/xinetzone/xinetzone.github.io)](https://github.com/xinetzone/xinetzone.github.io/network) [![GitHub stars](https://img.shields.io/github/stars/xinetzone/xinetzone.github.io)](https://github.com/xinetzone/xinetzone.github.io/stargazers) [![GitHub license](https://img.shields.io/github/license/xinetzone/xinetzone.github.io)](https://github.com/xinetzone/xinetzone.github.io/blob/master/LICENSE) [![HitCount](http://hits.dwyl.io/xinetzone/xinetzone.github.io.svg)](http://hits.dwyl.io/xinetzone/xinetzone.github.io) ![repo size](https://img.shields.io/github/repo-size/xinetzone/xinetzone.github.io.svg) [![contributors](https://img.shields.io/github/contributors/xinetzone/xinetzone.github.io.svg)](https://github.com/xinetzone/xinetzone.github.io/graphs/contributors) [![watcher](https://img.shields.io/github/watchers/xinetzone/xinetzone.github.io.svg)](https://github.com/xinetzone/xinetzone.github.io/watchers) [![GitHub version](https://badge.fury.io/gh/xinetzone%2Fxinetzone.github.io.svg)](https://badge.fury.io/gh/xinetzone%2Fxinetzone.github.io)
+[![GitHub issues](https://img.shields.io/github/issues/xinetzone/docs)](https://github.com/xinetzone/docs/issues) [![GitHub forks](https://img.shields.io/github/forks/xinetzone/docs)](https://github.com/xinetzone/docs/network) [![GitHub stars](https://img.shields.io/github/stars/xinetzone/docs)](https://github.com/xinetzone/docs/stargazers) [![GitHub license](https://img.shields.io/github/license/xinetzone/docs)](https://github.com/xinetzone/docs/blob/master/LICENSE) [![HitCount](http://hits.dwyl.io/xinetzone/docs.svg)](http://hits.dwyl.io/xinetzone/docs) ![repo size](https://img.shields.io/github/repo-size/xinetzone/docs.svg) [![contributors](https://img.shields.io/github/contributors/xinetzone/docs.svg)](https://github.com/xinetzone/docs/graphs/contributors) [![watcher](https://img.shields.io/github/watchers/xinetzone/docs.svg)](https://github.com/xinetzone/docs/watchers) [![GitHub version](https://badge.fury.io/gh/xinetzone%2Fdocs.svg)](https://badge.fury.io/gh/xinetzone%2Fdocs)
 
 本项目基于 [blinkfox/hexo-theme-matery](https://github.com/blinkfox/hexo-theme-matery) 修改了一个 matery 主题网站的搭建的模板。由于 MathJax 加载速度慢，不能很好的支持公式对齐，所以将其替换为 Katex。
 
 ## 如何使用
 
-1. `star` 本项目之后，可以直接`fork`一份源码到您的仓库（需要将 `dao` 改成您自己的`账户名称.github.io`），然后  `clone` 到本地磁盘
+1. `star` 本项目之后，可以直接`fork`一份源码到您的仓库（需要将 `docs` 改成您自己的`账户名称.github.io`），然后  `clone` 到本地磁盘（也可以直接以模板的形式使用）
 2. 安装 [Git](https://git-scm.com/downloads)，[node.js](https://nodejs.org/en/)，为了支持 Katex 需要安装 [Pandoc](https://pandoc.org/installing.html)
 3. 使用命令 `npm i -g hexo-cli` 安装 Hexo
-4. 在本地博客仓库进入到 `docs/` 目录，运行 `npm install` 命令安装依赖包
-5. 仍然在 `docs/` 目录下，运行 `hexo s` 便可在本地预览网站。
-6. 修改配置 `docs/_config.yml` 和 `docs/themes/hexo-matery/_config.yml` 信息，改成您自己的信息
-7. 替换 `docs/themes/hexo-matery/source/medias/reward` 之下的二维码为您自己的
+4. 进入本地博客仓库，运行 `npm ci` 命令安装依赖包
+5. 运行 `hexo s` 便可在本地预览网站。
+6. 修改配置 `_config.yml` 和 `themes/hexo-matery/_config.yml` 信息，改成您自己的信息
+7. 替换 `themes/hexo-matery/source/medias/reward` 之下的二维码为您自己的
 8. 运行命令`hexo  clean`（清除生成文件），`hexo g`（生成网页）， `hexo  s`（本地预览），`hexo d`（部署），详细教程可参考 Hexo 官方网站：[写作](https://hexo.io/zh-cn/docs/writing)
 9. 为了支持 Katex，还需要：
 
@@ -32,7 +32,7 @@ $ hexo new "Hello World" --lang zh-CN
 
 其中 `zh-CN` 表示简体中文。
 
-最终的网站的成品：<https://xinetzone.github.io/>，其中 `xinetzone` 改成您自己的账户名称即可。
+最终的网站的成品：<https://xinetzone.github.io/dao>，其中 `xinetzone` 改成您自己的账户名称即可，`dao` 是子博客路径。
 
 ## 自定义主题
 
@@ -120,8 +120,8 @@ $ git config --global http.postBuffer 524288000
 如果使用过程中有什么问题可以在文章最后评论区**留言和讨论**，如果觉得文章有用，请:smile:打赏按键：
 
 <p align="center">
-<img width="100" src="https://xinetzone.github.io/dao/medias/reward/alipay.jpg">
-<img width="100" src="https://xinetzone.github.io/dao/medias/reward/wechat.png">
+<img width="100" src="https://xinetzone.github.io/docs/medias/reward/alipay.jpg">
+<img width="100" src="https://xinetzone.github.io/docs/medias/reward/wechat.png">
 
 ## 未完成计划
 
